@@ -1,0 +1,15 @@
+We can see the widget in the alan shafran page , in this moment we are using a fixed MLS Number, because we still unknow  how send de MLS number in the page to widget.
+
+We still testing some elements like emails and SMS, but that will be quickly, I hope finish today.
+
+We had a problem the last week merging the widget with de new Version off showing suite, we had make pull and transport all code to the new version for prevent future problems, and in this process we found de reschedule process , we integrated this process also.
+
+For you can test de widget, we need  a  email and cellphone for send LA notifications o we can send both of them to the Buyer,  that is yout desicion, this is for test only, in production the email will be send to correct Listing Agent
+
+What is missing?
+
+-The feedback,  I had a delay integrate widget in the new version and reschedule process, tomorrow i will start to check all about  Feedback request
+
+-Integrate the info about alan shafran webpage 
+
+-We still have doubts about the process to search the MLS number in all Feeds, in this moment we are looking in all Rest feeds, i dont know if this is correct.

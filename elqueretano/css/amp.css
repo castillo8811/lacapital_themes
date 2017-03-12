@@ -1,0 +1,326 @@
+@font-face {font-family: 'MarkSimonsonBold'; src: url('../fonts/mark_simonson/mark_simonson_bold.eot'); src: url('../fonts/mark_simonson/mark_simonson_bold.eot?#iefix') format('embedded-opentype'),url('../fonts/mark_simonson/mark_simonson_bold.woff') format('woff'), url('../fonts/mark_simonson/mark_simonson_bold.ttf') format('truetype'), url('../fonts/mark_simonson/mark_simonson_bold.svg#MarkSimonsonBold') format('svg'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'MarkSimonsonLight'; src: url('../fonts/mark_simonson/mark_simonson_light.eot'); src: url('../fonts/mark_simonson/mark_simonson_light.eot?#iefix') format('embedded-opentype'),url('../fonts/mark_simonson/mark_simonson_light.woff') format('woff'), url('../fonts/mark_simonson/mark_simonson_light.ttf') format('truetype'), url('../fonts/mark_simonson/mark_simonson_light.svg#MarkSimonsonLight') format('svg'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'MarkSimonsonRegular'; src: url('../fonts/mark_simonson/mark_simonson_regular.eot'); src: url('../fonts/mark_simonson/mark_simonson_regular.eot?#iefix') format('embedded-opentype'),url('../fonts/mark_simonson/mark_simonson_regular.woff') format('woff'), url('../fonts/mark_simonson/mark_simonson_regular.ttf') format('truetype'), url('../fonts/mark_simonson/mark_simonson_regular.svg#MarkSimonsonRegular') format('svg'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'MarkSimonsonRegularItalic'; src: url('../fonts/mark_simonson/mark_simonson_regular_italic.eot'); src: url('../fonts/mark_simonson/mark_simonson_regular_italic.eot?#iefix') format('embedded-opentype'),url('../fonts/mark_simonson/mark_simonson_regular_italic.woff') format('woff'), url('../fonts/mark_simonson/mark_simonson_regular_italic.ttf') format('truetype'), url('../fonts/mark_simonson/mark_simonson_regular_italic.svg#MarkSimonsonRegularItalic') format('svg'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'MarkSimonsonThin'; src: url('../fonts/mark_simonson/mark_simonson_thin.eot'); src: url('../fonts/mark_simonson/mark_simonson_thin.eot?#iefix') format('embedded-opentype'),url('../fonts/mark_simonson/mark_simonson_thin.woff') format('woff'), url('../fonts/mark_simonson/mark_simonson_thin.ttf') format('truetype'), url('../fonts/mark_simonson/mark_simonson_thin.svg#MarkSimonsonThin') format('svg'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'UrwRegular'; src: url('../fonts/urw/urw_regular.eot'); src: url('../fonts/urw/urw_regular.eot?#iefix') format('embedded-opentype'),url('../fonts/urw/urw_regular.woff') format('woff'), url('../fonts/urw/urw_regular.ttf') format('truetype'), url('../fonts/urw/urw_regular.svg#UrwRegular') format('svg'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'UrwBold'; src: url('../fonts/urw/urw_bold.eot'); src: url('../fonts/urw/urw_bold.eot?#iefix') format('embedded-opentype'),url('../fonts/urw/urw_bold.woff') format('woff'), url('../fonts/urw/urw_bold.ttf') format('truetype'), url('../fonts/urw/urw_bold.svg#UrwBold') format('svg'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'Russo'; src: url('../fonts/russo/russo.eot'); src: url('../fonts/russo/russo.eot?#iefix') format('embedded-opentype'),url('../fonts/russo/russo.woff') format('woff'), url('../fonts/russo/russo.ttf') format('truetype'), url('../fonts/russo/russo.svg#UrwBold') format('svg'); font-weight: normal; font-style: normal;}
+
+html {font-size: 62.5%;}
+body {font-family: Arial, sans-serif;font-size: 10px;font-size: 1rem;}
+a{text-decoration:none;color: #369;}
+.bolder, strong, b {font-weight: bold ;}
+em, i {font-style: italic ;}
+.upper{text-transform: uppercase;}
+.link,.pointer{cursor: pointer;}
+.uline{text-decoration: underline;}
+.left {float: left;}
+.right {float: right;}
+.clear {clear: both;}
+.dblock {display: block;}
+.diblock {display: inline-block;}
+.ohidden {overflow: hidden;}
+.prelative {position: relative;}
+.pabsolute {position: absolute;}
+.tacenter {text-align: center;}
+.taright {text-align: right;}
+.taleft {text-align: left;}
+.noborder {border: 0;}
+.nomargin {margin: 0;}
+.centered {margin: 0 auto;}
+.limited {margin: 0 auto; width: 100%;}
+.lh18{line-height: 1.8rem;}
+.lh20{line-height: 2rem ;}
+.lh22{line-height: 2.2rem ;}
+.lh24{line-height: 2.4rem ;}
+.lh28{line-height: 2.8rem ;}
+.lh30{line-height: 3rem ;}
+.lh35{line-height: 3.5rem ;}
+.lh40{line-height: 4rem;}
+.lh45{line-height: 4.5rem ;}
+.lh50{line-height: 5rem ;}
+.lh60{line-height: 6rem ;}
+.lh70{line-height: 7rem ;}
+.pall10{padding: 10px;}
+.pall5{padding: 5px;}
+.pall15{padding: 15px;}
+.ptb20{padding: 20px 0;}
+.ptb10{padding: 10px 0;}
+.ptb5{padding: 5px 0;}
+.plr10{padding: 0 10px;}
+.plr20{padding: 0 20px;}
+.pb10{padding-bottom: 10px;}
+.pb20{padding-bottom: 20px;}
+.pb30{padding-bottom: 30px;}
+.pb40{padding-bottom: 40px;}
+.pt5{padding-top: 5px;}
+.pt10{padding-top: 10px;}
+.pt20 {padding-top: 20px;}
+.pt30 {padding-top: 30px;}
+.pt40 {padding-top: 40px;}
+.pl5{padding-left: 5px;}
+.pl10{padding-left: 10px;}
+.pr5{padding-right: 5px;}
+.pr10{padding-right: 10px;}
+.mt5{margin-top: 5px;}
+.mt7{margin-top: 7px;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mt30{margin-top: 30px ;}
+.mt40{margin-top: 40px;}
+.mb5{margin-bottom: 5px;}
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px;}
+.mb30{margin-bottom: 30px;}
+.mb40{margin-bottom: 40px;}
+.ml5{margin-left: 5px;}
+.ml10{margin-left: 10px;}
+.ml20{margin-left: 20px;}
+.ml30{margin-left: 30px;}
+.ml40{margin-left: 40px;}
+.mr1{margin-right: 1px;}
+.mr5{margin-right: 5px;}
+.mr10{margin-right: 10px;}
+.mr20{margin-right: 20px;}
+.mr30{margin-right: 30px;}
+.mr40{margin-right: 40px;}
+.mlr5{margin: 0 5px;}
+.mlr10{margin: 0 10px;}
+.mlr20{margin: 0 20px;}
+.mtb5{margin: 5px 0;}
+.mtb10{margin: 10px 0;}
+.mtb20{margin: 20px 0;}
+.mtb30{margin: 30px 0;}
+.mtb40{margin: 40px 0;}
+.mrb10{margin: 0 10px 10px 0;}
+.bt1{border-top: 1px solid #ccc;}
+.bb1{border-bottom: 1px solid #ccc;}
+.ball1{border: 1px solid #ccc;}
+.br5{border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+.bs5{filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='#19000000');box-shadow: 0 0 5px #666; -moz-box-shadow: 0 0 5px #666; -webkit-box-shadow: 0 0 5px #666;}
+.bs10{filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='#19000000');box-shadow: 0 0 10px #666; -moz-box-shadow: 0 0 10px #666; -webkit-box-shadow: 0 0 10px #666;}
+.col-1 {width: 100%;}
+.col-2 {width: 50%;}
+.col-3 {width: 33.33%;}
+.col-4 {width: 25%;}
+.col-5 {width: 20%;}
+.col-6 {width: 16.66%;}
+.col-7 {width: 14.28%;}
+.col-8 {width: 12.5%;}
+.col-9 {width: 11.11%;}
+.col-10 {width: 10%;}
+.cuad-12 {width: 100%;}
+.cuad-11 {width: 91.65%;}
+.cuad-10 {width: 83.32%;}
+.cuad-9 {width: 74.99%;}
+.cuad-8 {width: 66.66%;}
+.cuad-7 {width: 58.33%;}
+.cuad-6 {width: 50%;}
+.cuad-5 {width: 41.65%;}
+.cuad-4 {width: 33.32%;}
+.cuad-3 {width: 24.99%;}
+.cuad-2 {width: 16.66%;}
+.cuad-1 {width: 8.33%;}
+.h100p{height: 100%;}
+.w100p{width: 100%;}
+.w150 {width: 150px;}
+.w175{width: 175px;}
+.w165{width: 165px;}
+.w200 {width: 200px;}
+.w220 {width: 220px;}
+.w275 {width: 275px;}
+.w320{width: 320px;}
+.w325{width: 325px;}
+.w340{width: 340px;}
+.w445{width: 445px;}
+.w680{width: 680px;}
+.w1004{width: 1004px;}
+.w1280{width: 1280px;}
+.mh167{min-height: 167px;}
+.bggray{background: #fafafa;}
+.fwn {font-weight: normal;}
+.hidden {display: none;}
+.paC {position: absolute;top: 10px;bottom: 0;left: 0;right: 0;}
+.gradient0, #stage .bx-caption {background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.05) 5%, rgba(0,0,0,1) 100%); /* FF3.6+ */background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(5%,rgba(0,0,0,0.05)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 5%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 5%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 5%,rgba(0,0,0,1) 100%); /* IE10+ */background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 5%,rgba(0,0,0,1) 100%); /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */}
+/***************/
+
+.A15r0 {font-size: 15px; font-size: 1.5rem; font-family: 'Arial', sans-serif; color: #000;}
+.A24r0 {font-size: 24px; font-size: 1.9rem; font-family: 'Arial', sans-serif; color: #000;}
+.A21r0 {font-size: 24px; font-size: 1.9rem; font-family: 'Arial', sans-serif; color: #000;}
+
+.O15l6 {font-size: 15px; font-size: 1.5rem; font-family: 'Oswald', sans-serif; color: #666; font-weight: 300;}
+.O18l6 {font-size: 18px; font-size: 1.8rem; font-family: 'Oswald', sans-serif; color: #666; font-weight: 300;}
+.O20l0 {font-size: 20px; font-size: 2rem; font-family: 'Oswald', sans-serif; color: #000; font-weight: 300;}
+.O20l4 {font-size: 20px; font-size: 2rem; font-family: 'Oswald', sans-serif; color: #369; font-weight: 300;}
+.O23l0 {font-size: 23px; font-size: 2.3rem; font-family: 'Oswald', sans-serif; color: #000; font-weight: 300;}
+.O25l0 {font-size: 25px; font-size: 2.5rem; font-family: 'Oswald', sans-serif; color: #000; font-weight: 300;}
+.O25l1 {font-size: 25px; font-size: 2.5rem; font-family: 'Oswald', sans-serif; color: #fff; font-weight: 300;}
+.O25l4 {font-size: 25px; font-size: 2.5rem; font-family: 'Oswald', sans-serif; color: #369; font-weight: 300;}
+.O25l8 {font-size: 25px; font-size: 2.5rem; font-family: 'Oswald', sans-serif; color: #f00; font-weight: 300;}
+.O30l0 {font-size: 30px; font-size: 3rem; font-family: 'Oswald', sans-serif; color: #000; font-weight: 300;}
+.O30l1 {font-size: 30px; font-size: 3rem; font-family: 'Oswald', sans-serif; color: #fff; font-weight: 300;}
+.O30l4 {font-size: 30px; font-size: 3rem; font-family: 'Oswald', sans-serif; color: #369; font-weight: 300;}
+.O30l8 {font-size: 30px; font-size: 3rem; font-family: 'Oswald', sans-serif; color: #f00; font-weight: 300;}
+.O35l1 {font-size: 35px; font-size: 3.5rem; font-family: 'Oswald', sans-serif; color: #fff; font-weight: 300;}
+.O40l0 {font-size: 40px; font-size: 4rem; font-family: 'Oswald', sans-serif; color: #000; font-weight: 300;}
+.O40l1 {font-size: 40px; font-size: 4rem; font-family: 'Oswald', sans-serif; color: #fff; font-weight: 300;}
+.O60l0 {font-size: 60px; font-size: 6rem; font-family: 'Oswald', sans-serif; color: #000; font-weight: 300;}
+
+.O13r6 {font-size: 13px; font-size: 1.3rem; font-family: 'Oswald', sans-serif; color: #666;}
+.O15r3 {font-size: 15px; font-size: 1.5rem; font-family: 'Oswald', sans-serif; color: #333;}
+.O15r6 {font-size: 15px; font-size: 1.5rem; font-family: 'Oswald', sans-serif; color: #666;}
+.O15r1 {font-size: 15px; font-size: 1.5rem; font-family: 'Oswald', sans-serif; color: #fff;}
+.O15r2 {font-size: 15px; font-size: 1.5rem; font-family: 'Oswald', sans-serif; color: #fc3;}
+.O17r1 {font-size: 17px; font-size: 1.7rem; font-family: 'Oswald', sans-serif; color: #fff;}
+.O18r1 {font-size: 18px; font-size: 1.8rem; font-family: 'Oswald', sans-serif; color: #fff;}
+.O19r0 {font-size: 19px; font-size: 1.9rem; font-family: 'Oswald', sans-serif; color: #000;}
+.O21r0 {font-size: 21px; font-size: 2.1rem; font-family: 'Oswald', sans-serif; color: #000;}
+.O22r1 {font-size: 22px; font-size: 2.2rem; font-family: 'Oswald', sans-serif; color: #fff;}
+.O22r2 {font-size: 22px; font-size: 2.2rem; font-family: 'Oswald', sans-serif; color: #fc3;}
+.O24r0 {font-size: 24px; font-size: 2.4rem; font-family: 'Oswald', sans-serif; color: #000;}
+.O25r0 {font-size: 25px; font-size: 2.5rem; font-family: 'Oswald', sans-serif; color: #000;}
+.O29r1 {font-size: 29px; font-size: 2.9rem; font-family: 'Oswald', sans-serif; color: #fff;}
+.O30r0 {font-size: 30px; font-size: 3rem; font-family: 'Oswald', sans-serif; color: #000;}
+.O40r0 {font-size: 40px; font-size: 4rem; font-family: 'Oswald', sans-serif; color: #000;}
+.O40r1 {font-size: 40px; font-size: 4rem; font-family: 'Oswald', sans-serif; color: #fff;}
+.O40r3 {font-size: 40px; font-size: 4rem; font-family: 'Oswald', sans-serif; color: #333;}
+.O40r6, .nodeBody h3 {font-size: 40px; font-size: 4rem; font-family: 'Oswald', sans-serif; color: #666;}
+.O45r0 {font-size: 45px; font-size: 4.5rem; font-family: 'Oswald', sans-serif; color: #000;}
+.O45r3, .nodeBody h2 {font-size: 45px; font-size: 4.5rem; font-family: 'Oswald', sans-serif; color: #333;}
+.O48r0 {font-size: 48px; font-size: 4.8rem; font-family: 'Oswald', sans-serif; color: #000;}
+.O50r0, .nodeBody h1 {font-size: 50px; font-size: 5rem; font-family: 'Oswald', sans-serif; color: #000;}
+.O50r1 {font-size: 50px; font-size: 5rem; font-family: 'Oswald', sans-serif; color: #fff;}
+
+.O16b0 {font-size: 16px; font-size: 1.6rem; font-family: 'OswaldBold', sans-serif; color: #000;}
+.O16b1 {font-size: 16px; font-size: 1.6rem; font-family: 'OswaldBold', sans-serif; color: #fff;}
+.O24b2 {font-size: 24px; font-size: 2.4rem; font-family: 'OswaldBold', sans-serif; color: #fc3;}
+
+.U20r0 {font-size: 18px; font-size: 2.0rem; font-family: 'Russo', sans-serif; color: #000;}
+.U24r0 {font-size: 24px; font-size: 2.4rem; font-family: 'Russo', sans-serif; color: #000;}
+.U24r1 {font-size: 24px; font-size: 2.4rem; font-family: 'Russo', sans-serif; color: #fff;}
+.U24r2 {font-size: 24px; font-size: 2.4rem; font-family: 'Russo', sans-serif; color: #fc3;}
+.U34r0 {font-size: 34px; font-size: 3.4rem; font-family: 'Russo', sans-serif; color: #000;}
+
+.img-fluid {max-width: 100%;height: auto;}
+.transitionBG {transition: background 0.3s linear;-moz-transition: background 0.3s linear;-webkit-transition: background 0.3s linear;-o-transition: background 0.3s linear;-ms-transition: background 0.3s linear;}
+.transitionPosition {transition: background-position 0.3s linear;-moz-transition: background-position 0.3s linear;-webkit-transition: background-position 0.3s linear;-o-transition: background-position 0.3s linear;-ms-transition: background-position 0.3s linear;}
+.transitionColor, .menuFixedNav ul.menu li a {transition: color 0.3s ease;-moz-transition: color 0.3s ease;-webkit-transition: color 0.3s ease;-o-transition: color 0.3s ease;-ms-transition: color 0.3s ease;}
+a.hoverY:hover {color: #fc3;}
+
+.page-amp{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header-amp{
+background-color: #000;
+}
+.logo-wrapper{
+    width: 100%;
+    background-color: #000;
+    padding: 10px 0;
+}
+.logo-amp{
+    background: url("/sites/all/themes/lacapitalmx_d7_responsive/lacapitalmx/logo.png");
+    width: 280px;
+    height: 44px;
+    margin: auto;
+    background-color: #000;
+
+}
+
+.menu-amp{
+    background-color: dimgrey;
+    width: 100%;
+}
+
+.menu-amp li{
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu-amp li a{
+    color: white;
+    font-size: 16px;
+}
+
+.nodeImg amp-img{
+    border: solid 1px black 
+}
+
+.nodeImgfooter{
+    margin: 0;
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: left;
+}
+.autor{
+    font-size: 30px;
+    margin: 15px;
+}
+
+.more-articles{
+    background-color: black;
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#relateds-amp ul{
+    margin:0 ;
+    padding: 0 ;
+}
+#relateds-amp li{
+    list-style: none ;
+}
+#relateds-amp ul li a{
+    display: block;
+    width: 100%;
+    font-size: 30px;
+}
+
+#relateds-amp ul li a{
+    font-size: 35px ;
+    text-align: center;
+}
+
+.footer-amp ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-amp ul li{
+    display: block;
+    background-color: dimgrey;
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+    color: white;
+    margin: 5px;
+}
+.footer-amp ul li a{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+@media only screen and (max-width: 380px) {
+    .menu-amp li{
+        margin: 10px;
+    }
+    .menu-amp a{
+        font-size: 16px ;
+    }
+}
+@media only screen and (min-width: 381px) and (max-width: 640px) {
+    .menu-amp li{
+        margin: 10px;
+    }
+    .menu-amp a{
+        font-size: 16px ;
+    }
+}

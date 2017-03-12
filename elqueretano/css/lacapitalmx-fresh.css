@@ -1,0 +1,656 @@
+/*Header*/
+#header-wrapper{background-color: #000;}
+#super-banner-top{margin: 10px}
+#change-ciudad-mobil{
+    display: none;
+}
+#top {
+    margin: 0 auto;
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 66%, rgba(131,129,104,1) 66%, rgba(131,129,104,1) 75%, rgba(131,129,104,1) 88%, rgba(131,129,104,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(66%, rgba(0,0,0,1)), color-stop(66%, rgba(131,129,104,1)), color-stop(75%, rgba(131,129,104,1)), color-stop(88%, rgba(131,129,104,1)), color-stop(100%, rgba(131,129,104,1)));
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 66%, rgba(131,129,104,1) 66%, rgba(131,129,104,1) 75%, rgba(131,129,104,1) 88%, rgba(131,129,104,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 66%, rgba(131,129,104,1) 66%, rgba(131,129,104,1) 75%, rgba(131,129,104,1) 88%, rgba(131,129,104,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 66%, rgba(131,129,104,1) 66%, rgba(131,129,104,1) 75%, rgba(131,129,104,1) 88%, rgba(131,129,104,1) 100%);
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 66%, rgba(131,129,104,1) 66%, rgba(131,129,104,1) 75%, rgba(131,129,104,1) 88%, rgba(131,129,104,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#838168', GradientType=1 );
+}
+#pageContent{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.footer-amp{
+    display: none;
+}
+/*/Header*/
+/*Listado cuadrícula notas*/
+.nodesList.listado-cuadricula .nodesList-tools {position: absolute;width: 100%;top: 0;left: 0;height: 34px;border-radius: 5px 12px 0px 0px;-moz-border-radius: 5px 12px 0px 0px;-webkit-border-radius: 5px 12px 0px 0px;}
+.nodesList.listado-cuadricula .nodesList-section {position: absolute;top: 0;left: 0;}
+.nodesList.listado-cuadricula .nodesList-img img {width: 100%;height: auto;/*max-height: 234px; min-height: 234px;*/}
+.nodesList.listado-cuadricula .nodesList-ranking {position: absolute;bottom: 2px;left: 0;padding: 3px;border-radius: 0 8px 0 0;-moz-border-radius: 0 8px 0 0;-webkit-border-radius: 0 8px 0 0;}
+/*.canalListNodes.nodes-pair ul li:nth-child(2n+1) {clear: both;}*/
+.canalListNodes.nodes-pair ul {clear: both;}
+
+/*/Listado cuadrícula notas*/
+/*Listado full*/
+.nodesList.listado-full .nodesList-img img {width: 100%;height: auto;}
+/*/Listado full*/
+/*Corte redes sociales*/
+.socialBreake {background: url(../images/imagenes/imagen_redes_1280.jpg) no-repeat center top;height: 409px;}
+.socialLinks {position: absolute;bottom: 7rem;left: 2rem;}
+.socialLinks a {margin-left: 2%;}
+/*/Corte redes sociales*/
+/*Footer*/
+section#footerGen {background-color: #000;padding: 10px 0;}
+section#footerGen ul li a:hover {color: #fc0;}
+section#footerGen .copyright {border-top: 1px solid #555;}
+/*/Footer*/
+/*Menu fixed*/
+.nodeBody iframe{max-width: 100%; display: block; margin: 0 auto; text-align: center;}
+body.front {padding-top: 0;}
+
+#header-top{
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+}
+.menuFixedTools{
+    background-color: #000;
+}
+
+.menuFixedLogo{
+    width: 40%;
+    top: 18px;
+    float: left;
+}
+
+#triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 60px solid #FFF;
+    border-right: 90px solid transparent;
+    position: relative;
+    left: 100%;
+}
+
+#menu-content, .menuFixed-hidden {height: 40px;text-align: left; background-color: #333333}
+.menuFixedNav ul.menu li {display: inline-block;width: auto !important;box-sizing: border-box;text-align: center;height: 40px;padding: 10px 10px;margin: 0;}
+.menuFixedNav ul.menu li a {color: #fff;font-size: 14px;font-size: 1.5rem !important;font-family: "Russo";text-transform: uppercase;}
+.menuFixedNav ul.menu li:hover a {color: #fc0;}
+
+#change-ciudad{
+    margin: 10px auto;
+    width: 190px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold
+}
+.menuFixedNav ul.menu li a.active{color: yellow;}
+.menuFixedNav ul.menu li.active-trail a{color: #000;}
+.menuFixedNav ul.menu li:nth-child(2).active-trail {color:yellow}
+.menuFixedNav ul.menu li:nth-child(2).active-trail {background: #f5a75e;}
+.menuFixedNav ul.menu li:nth-child(3).active-trail {background: #ccc;}
+.menuFixedNav ul.menu li:nth-child(4).active-trail {background: #e95745;}
+.menuFixedNav ul.menu li:nth-child(5).active-trail {background: #21b5c0;}
+.menuFixedNav ul.menu li:nth-child(6).active-trail {background: #199375;}
+.menuFixedNav ul.menu li:nth-child(7).active-trail {background: #808184;}
+.menuFixedNav ul.menu li:nth-child(8).active-trail {background: yellow; color:black;!important;}
+.menuFixedNav ul.menu li:nth-child(8).active-trail a, .menuFixedNav ul.menu li:nth-child(7).active-trail a, .menuFixedNav ul.menu li:nth-child(3).active-trail a {color: #000;}
+
+.menuFixed-search input[type="text"] {border: 0;float: left;padding: 5px;font-family: "MarkSimonsonRegular",sans-serif; font-size: 14px; font-size: 1.4rem;width: 74%;color: #666;}
+.menuFixed-search input[type="submit"] {float: left;border: none;border-radius: 0px 7px 7px 0px;-moz-border-radius: 0px 7px 7px 0px;-webkit-border-radius: 0px 7px 7px 0px;font-size: 0px;}
+.menuFixed-social {top: 20px;position:relative;width: 30%;z-index: 2;background-color: #000; float: left;width: 30%}
+.menuFixedNav ul.menu li a.active:parent {
+    color: #000;
+    background: yellow;
+}
+
+
+.revista-header{
+    display: block;
+    font-size: 15px;
+    margin: 10px 0 0 0;
+}
+
+.revista-sub{
+    display: block;
+    font-weight: bold;
+    color: darkorange;
+    font-size: 18px;
+}
+.revista{
+    width: 62px;
+    height: 82px;
+    float: left;
+    background: red;
+    margin: 5px 35px;
+}
+
+.download-section{
+    float: left;
+    margin: 10px 20px;
+}
+
+.d-button{
+    border-radius: 20px;
+    background: darkred;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+/*/Menu fixed*/
+/*Search*/
+div#block-mygooglecse-mygooglecse .form-item {margin: 0;}
+/*/Search*/
+/*Stage*/
+#stage .arrow-next-b {position: absolute;right: 9px;top: 45%;z-index: 60;}
+#stage .arrow-prev-b {position: absolute;left: 10px;top: 45%;z-index: 60;}
+#stage .arrow-next-b .bx-next, #stage .arrow-prev-b .bx-prev {position: absolute;right: 0;top: 0;bottom: 0;left: 0;}
+#stage .bx-pager {text-align: center;}
+#stage .bx-pager .bx-pager-item {display: inline-block;font-size: 0px;margin: 0 20px;width: 30px;height: 30px;}
+#stage .bx-pager .bx-pager-item a {background-color: lightgrey;width: 20px;height: 20px;border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;cursor: pointer;display: block;}
+#stage .bx-pager .bx-pager-item a.active {background-color: darkgrey;}
+#stage .bx-caption {position: absolute;bottom: 0;left: 0;right: 0;color: #fff;padding: 10px;font: 36px "Oswald";font: 3.6rem "Oswald";text-align: center;background-color: rgba(0, 0, 0, 0.6);}
+/*/Stage*/
+/*Radiografia*/
+#radiografia .radiografia-title {position: absolute;bottom: 0;left: 0;right: 0;padding: 10px;}
+/*/Radiografia*/
+/*Mirador*/
+section#mirador .mirador-note-top {padding-top: 20px;}
+#mirador .mirador-notes {margin: 0 auto;width: 100%;overflow: hidden;max-height: 220px;}
+#mirador .mirador-notes ul li {width: 245px !important;}
+#mirador span.arrow-next-s {position: absolute;right: 0;top: 20%; z-index: 100;}
+#mirador span.arrow-prev-s {position: absolute;left: 0;top: 20%; z-index: 100;}
+#mirador .mirador-img:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 2px;
+    height: 2px;
+    border-left: 10px solid red;
+    border-right: 10px solid green;
+    border-bottom: 10px solid black;
+    border-top: 10px solid blue;
+    z-index: 1000;
+}
+
+.mirador-link{
+    height: 112px;
+}
+
+/*Social sidebar*/
+section#socialSidebar ul li {border: 1px solid #f3f3f3;}
+/*/Social sidebar*/
+/*Colaboradores carrusel*/
+#colaboradoresCarousel {background: url(../images/imagenes/imagen_bloggeros_1280.jpg) no-repeat center top;height: 349px;}
+#colaboradoresCarousel .arrow-next-gray {position: absolute;right: 5px;top: 100px;z-index: 2;}
+#colaboradoresCarousel .arrow-prev-gray {position: absolute;left: 5px;top: 100px;z-index: 2;}
+div#colaboradoresCarousel_outer {width: 85%;margin: 0 auto;}
+div#colaboradoresCarousel_wrapper {position: relative;overflow: hidden;margin: 0 auto;width: 86% !important;}
+div#colaboradoresCarousel_wrapper ul {width: 20000em;position: relative;list-style: none;margin: 0;padding: 0;}
+div#colaboradoresCarousel_wrapper ul li {width: 200px;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;padding: 10px;}
+div#colaboradoresCarousel_wrapper .colaboradores-item {height: 190px;text-align: center;}
+div#colaboradoresCarousel_wrapper .colaboradores-item img {width: 45%;height: auto;border-radius: 100px;-moz-border-radius: 100px;-webkit-border-radius: 100px;}
+/*/Colaboradores carrusel*/
+/*Invitación registro lugar*/
+#registroInvitacion {background: url(../images/imagenes/imagen_registro_1280.jpg) no-repeat center top;height: 347px;}
+/*/Invitación registro lugar*/
+/*Barras contenido*/
+#main_container_left {padding-right: 340px;}
+#main_container_left .region, #main_container_right .region {padding: 10px 0 50px; margin-right:10px;}
+#main_container_right {width: 330px;position: absolute;right: 10px; top: 0;bottom: 10px;height: 100%;border-left: 1px solid #e3e3e3;}
+div#main_container_right .imx_ads.bgAd {background: #b2b2b2;padding: 5px;margin:0;display: inline-block;}
+/*/Barras contenido*/
+/*Comments*/
+div#comentarios-content-child {border-top: 3px solid #333;}
+/*/Comments*/
+/*Nodos general*/
+.nodeImg {max-width: 680px;}
+.nodeImg img {width: 100%;height: auto;}
+.nodeBody img{display: block;margin: auto;max-width: 100%;width: 100% !important;height: auto !important;}
+.nodeImg .nodeImgfooter {background: #e3e3e3;padding: 10px 10px 10px 85px;box-sizing: border-box;text-align: left;min-height: 77px;}
+.nodeImg .nodeImgfooter .icn-capital-white-wrapper {position: absolute;top: 0;left: 0;bottom: 0;width: 76px;}
+.nodeImg .nodeImgfooter .icn-capital-white {position: absolute;top: 0;right: 0;left: 0;bottom: 0;margin: auto;}
+/*.nodeAuthor,*/ .nodeSocialsBottom, .nodeEventDetails, .nodeAlerts {border-top: 1px solid #ccc;}
+/*.nodeAuthor, .nodeSocialsBottom {border-bottom: 1px solid #ccc;}*/
+.nodeBody p {margin-bottom: 20px;}
+.nodeBody h1, .nodeBody h2, .nodeBody h3 {margin: 40px 0 30px 0;}
+.nodeBody h1 {line-height: 49px;line-height: 4.9rem;}
+.nodeBody h2 {line-height: 44px;line-height: 4.4rem;}
+.nodeBody h3 {line-height: 39px;line-height: 3.9rem;}
+.nodeBody strong, .nodeBody b {font-weight: bold !important;}
+.nodeBody em, .nodeBody i {font-style: italic !important;}
+header.nodeHeader {clear: both;}
+.nodeSocials {max-width: 780px;margin: 0 auto;height: 45px;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;padding: 0px 10px 10px 40px;}
+.nodeSocials .icn-share {position: absolute;top: -17px;left: -11px;}
+.nodeSocials ul{min-height: 45px;float: right;}
+/*/Nodos general*/
+/*Nodos mapas*/
+.nodeEventMap iframe {width: 100%;max-height: 300px;}
+/*/Nodos mapas*/
+/*Nodos alertas*/
+.nodeAlerts form div {margin-top: 30px;}
+.nodeAlerts form div a {color: #369;}
+.nodeAlerts form div input[type="text"] {padding: 10px;width: 80%;max-width: 400px;font: 18px "Noto";color: #999;}
+/*/Nodos alertas*/
+/*Barra relacionados Sticky*/
+#relatedBar {background: #fff;width: 310px;padding-left: 5px}
+#relatedBar iframe{
+    width: 300px !important;
+}
+.relatedBarWrapper {position: relative;padding-bottom: 50px;}
+/*/Barra relacionados Sticky*/
+/*Notas barra*/
+.relatedBarWrapper .btn-vermas {width: 100%;position: absolute;bottom: 0;margin: 0;}
+.relacionadoImg img {width: 100%;height: auto;}
+.relatedBarWrapper ul li:first-child {padding-top: 0;}
+/*/Notas barra*/
+/*Tópicos*/
+.nodeTopicoRelatedsCategory span.active {color: #000;}
+/*/Tópicos*/
+/*Nodo Series*/
+.SeriesWrapper ul li img {width: 100%;height: auto;}
+.SeriesWrapper ul li:nth-child(2n+1) {clear: both;}
+.SeriesWrapper .icn-play{position: absolute;top: 0;right: 0;left: 0;bottom: 0;margin: auto;}
+/*/Nodo Series*/
+/*Videonota*/
+.nodeVideonotaBanner,.nodeVNBannerWrapper {height: 90px;}
+.nodeVideonotaBanner .pleca-SeriesCasa-s {position: absolute;right: 1.5rem;top: 0.7rem;}
+.nodeVideonotaBanner .nodeButtonSubscribe {position: absolute;bottom: 0.7rem;right: 2.1rem;}
+/*/Videonota*/
+/*Ficha lugar*/
+section#relatedEvents ul li:last-child {border: none;}
+/*/Ficha lugar*/
+/*Aliados*/
+section#aliados ul li {word-wrap: break-word;}
+section#aliados ul li:nth-child(3n+1) {clear: both;}
+section#aliados ul li img {width: 100%;height: auto;}
+/*/Aliados*/
+/*Colaboradores*/
+.colaboradoresCarousel-wrapper {border-top: 1px solid #999;border-bottom: 1px solid #999;background: #dfdfdf;}
+.colaboradoresCarousel-title {background: #333;}
+.colaboradoresCarousel-carousel {width: 90%;margin: 0 auto;}
+.colaboradoresCarousel .arrow-prev-white {position: absolute;left: 6px;top: 13%;}
+.colaboradoresCarousel .arrow-next-white {position: absolute;right: 6px;top: 13%;}
+.colaboradoresCarousel .colaboradores-item {height: 100px;word-wrap: break-word;}
+/*/Colaboradores*/
+/*Registro*/
+section#userLogin {padding-bottom: 30px;padding-bottom: 3rem;border-bottom: 1px solid #ccc;margin-bottom: 30px;margin-bottom: 3rem;}
+/*section#userLogin .userLoginForm form div, section#userRegistration .userRegistrationForm div {margin-bottom: 20px;margin-bottom: 2rem;width: auto; height: auto}*/
+section#userLogin .userLoginForm form div.form-item div.form-item, section#userRegistration .userRegistrationForm div.form-item div.form-item {margin: 0;}
+section#userLogin .userLoginForm input[type="text"], section#userLogin .userLoginForm input[type="password"], section#userRegistration .userRegistrationForm input[type="text"], section#userRegistration .userRegistrationForm input[type="password"] {width: 97%;max-width: 650px;font-size: 30px;font-size: 2.5rem;font-family: 'OswaldLight', sans-serif;color: #000;float: left;margin: 0 0 20px 0;padding: 5px;}
+.userRegistrationBenefits {width: 75%;}
+.userRegistrationBenefits ul li {padding-bottom: 30px;padding-bottom: 3rem;margin-top: 30px;margin-top: 3rem;border-bottom: 2px solid #ccc;padding-left: 60px;padding-left: 6rem;padding-right: 60px;padding-right: 6rem;}
+.userRegisterLegals {width: 100%;margin: 30px 0 0 0}
+section#userRegistrationWrapper .form-item span.form-required {display: none;}
+/*section#userRegistration .userRegistrationForm div.form-item div.password-strength, section#userRegistration .userRegistrationForm div.form-item div.password-confirm, section#userRegistration .userRegistrationForm div.form-item div.password-suggestions {width: 75% !important;margin: 0 auto;font-family: 'Noto', sans-serif;float: none;border: none;}*/
+section#userRegistration .userRegistrationForm div.form-item div.password-strength, section#userRegistration .userRegistrationForm div.form-item div.password-suggestions {display: none;}
+section#userRegistration .userRegistrationForm div.form-item div.password-confirm {margin-bottom: 10px;margin-bottom: 1rem;width: 75% !important;margin: 0 auto;font-family: 'Noto', sans-serif;float: none;border: none;}
+/*/Registro*/
+/*Perfil*/
+nav#userProfileMenu, nav#userProfileMenu ul li.col-5 {height: 40px;}
+nav#userProfileMenu ul li div {height: 30px;}
+nav#userProfileMenu {background-color: #333;}
+nav#userProfileMenu .active, nav#userProfileMenu ul li div:hover {background-color: orange;}
+nav#userProfileMenu .active span.line-w, nav#userProfileMenu ul li div:hover span.line-w {display: none;}
+#userProfileBenefits ul li:first-child{border-top: 2px solid #ccc;margin-top:0;}
+#userProfileBenefits ul li {padding-bottom: 30px;padding-bottom: 3rem;padding-top: 30px;padding-top: 3rem;border-bottom: 2px solid #ccc;}
+#userProfileBenefits ul li:last-child{border:0;}
+section#userProfileTutorial div {padding: 0 100px;padding: 0 10rem;}
+section#userProfileTutorial {padding: 40px 0;padding: 4rem 0;border-top: 2px solid #ccc;border-bottom: 2px solid #ccc;}
+section#userProfileTutorial img {width: 100%;height: auto;max-width: 235px;}
+section#listadoAlertas {padding-top: 30px;padding-top: 3rem;border-top: 2px solid #ccc;}
+.listadoAlertas-list {background-color: #f2f2f2;padding: 20px;padding: 2rem;}
+.listadoAlertas a.link-abs {top: 10px;top: 1rem;}
+section#boletinBenefits {padding-top: 40px;border-top: 2px solid #ccc;}
+section#boletinBenefits ul,.boletinForm {width: 62%;}
+.boletinForm input {float: left;width: 27px;height: 27px;margin: 0 35px 0 6px;}
+.boletinForm label {float: left;margin-top: 7px;}
+.userProfileData-Form {border-top: 1px solid #ccc;padding-top: 35px;padding-top: 3.5rem;}
+.userProfileData-Form .description {margin-left: 0;margin-top: 10px;margin-top: 1rem;font-size: 12px;font-size: 1.2rem;}
+.userProfileData-picture img {width: 100%;height: auto;max-width: 150px;min-width: 84px;min-height: 84px;}
+.userProfileData-picture .form-item-files-picture-upload label {width: 150px;display: block;padding: 5px;padding: 0.5rem;text-align: center;border: 2px solid #ccc;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;margin-bottom: 15px;margin-bottom: 1.5rem;cursor: pointer;color: #999;display: none;}
+.userProfileData-name {padding-top: 30px;padding-top: 3rem;border-top: 1px solid #ccc;}
+.userProfileData-name input[type="text"],.userProfileData-name input[type="password"] {padding: 5px 10px;padding: 0.5rem 1rem;width: 80%;max-width: 600px;font-size: 30px;font-size: 3rem;font-family: 'OswaldLight', sans-serif;color: #000;margin-top: 10px;}
+.userProfileData-name .confirm-parent, .userProfileData-name .password-parent {width: auto;}
+.userProfileData-name div.form-item div.password-suggestions {margin: 1rem 0;border: none;color: #999;padding: 0;width: auto;}
+.userProfileData-name .password-strength {width: 50rem;float: right;margin-top: 1.4em;}
+.userProfileData-name .password-strength-title {display: inline-block;margin-bottom: 5px;}
+.userProfileData-picture .cuad-9 .messages {font: 11px/14px Arial;font: 1.1rem/1.4rem Arial;}
+.userProfileData-picture .cuad-9 div#edit-picture-upload-ajax-wrapper input[type="submit"] {border: 2px solid #ccc;background-color: transparent;margin-left: 20px;padding: 5px 10px;border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;}
+/*/Perfil*/
+/*Ventanas*/
+section.windowRegister {width: 90%;max-width: 360px;margin: 0 auto;}
+section.windowRegister .windowHeader {background-color: #333;padding: 5px;padding: 0.5rem;box-sizing: border-box;position: relative;}
+section.windowRegister .windowHeader img {width: 100px;height: auto;}
+section.windowRegister .windowHeader .windowRegister-close {position: absolute;top: 8px;right: 7px;cursor: pointer;}
+section.windowRegister .windowBody {text-align: center;padding: 20px 10px;padding: 2rem 1rem;background-color: #fff;box-sizing: border-box;}
+section.windowRegister .windowBody form input[type="text"], section.windowRegister .windowBody form input[type="password"]{padding: 0 10px;padding: 0 1rem;width: 90%;max-width: 600px;font-size: 25px;font-size: 2.5rem;font-family: 'OswaldLight', sans-serif;color: #000;}
+section.windowRegister .windowBody form div {margin: 30px 0;margin: 3rem 0;}
+section.windowRegister .windowBody .form-required{display: none}
+section.windowRegister .windowBody img {width: 95%;height: auto;max-width: 235px;}
+section.windowRegister .windowBody .userLoginForm form div {margin: 20px 0;margin: 2rem 0;}
+section.windowRegister .windowBody .btn-vermasAzul {width: 70%;}
+/*/Ventanas*/
+/*/Shares Lateral*/
+#share-wrapper {width: 85px!important; background-color: #fff;position: fixed;top: 300px;text-align: center;padding: 5px 1px;border: 1px solid #f3f3f3;float: none!important;z-index: 2;margin-left: -101px;}
+#share-wrapper ul li{width: 85px; margin-top: 10px;}
+/*/Shares Lateral*/
+/*Registro evento/lugar*/
+section#registerEvent .registerEventForm .registerEvent-form-item {margin-bottom: 45px;margin-bottom: 4.5rem;clear: both;border-bottom: 1px solid #ccc;padding-bottom: 45px;padding-bottom: 4.5rem; width:80%; margin:auto;}
+section#registerEvent .registerEventForm .registerEvent-form-item:last-child {border: none;padding: 0;}
+section#registerEvent .registerEventForm .registerEvent-form-item>.form-item {width: 100%;margin: 0 auto;max-width: 605px;margin-top: 20px;}
+section#registerEvent .registerEventForm .registerEvent-form-item label {font-size: 45px; font-size: 4.5rem; font-family: 'OswaldLight', sans-serif; color: #000;margin-bottom: 30px;margin-bottom: 3rem;}
+section#registerEvent .registerEventForm .registerEvent-form-item input[type="text"], section#registerEvent .registerEventForm .registerEvent-form-item textarea {width: 98%;margin: 0 auto;float: none;padding: 10px;max-width: 500px;box-sizing: border-box;}
+section#registerEvent .registerEventForm .registerEvent-form-item input[type="text"] {font-size: 25px;font-size: 2.5rem;font-family: 'OswaldLight', sans-serif;color: #999;}
+section#registerEvent .registerEventForm .registerEvent-form-item input[type="radio"], section#registerEvent .registerEventForm .registerEvent-form-item input[type="checkbox"] {width: 22px;height: 22px;margin: 0;}
+section#registerEvent .registerEventForm .registerEvent-form-item select {width: 50%;max-width: 250px;padding: 10px;font-size: 30px; font-size: 3rem; font-family: 'OswaldLight', sans-serif; color: #999;}
+section#registerEvent .registerEventForm .registerEvent-form-item textarea {resize: none;font-family: 'OswaldLight', sans-serif;font-size: 2.5rem;color: #999;}
+section#registerEvent .registerEventForm .registerEvent-form-item .form-item.form-type-radio {float: left;width: 50%;}
+section#registerEvent .registerEventForm .registerEvent-form-item .form-item.form-type-checkbox {float: left;width: 50%;text-align: left;}
+section#registerEvent .registerEventForm .registerEvent-form-item .form-item.form-type-radio label {font-size: 21px; font-size: 2.1rem; font-family: 'Noto', sans-serif;color: #999;margin: 0;}
+section#registerEvent .registerEventForm .registerEvent-form-item .form-item.form-type-checkbox label {font-size: 21px; font-size: 2.1rem; font-family: 'Noto', sans-serif;color: #999;}
+section#registerEvent .registerEventForm .registerEvent-form-item .form-type-radio.form-item-category, section#registerEvent .registerEventForm .registerEvent-form-item .form-type-radio.form-item-publico, section#registerEvent .registerEventForm .registerEvent-form-item .form-type-radio.form-item-rangos-precio {text-align: left;margin-bottom: 10px;}
+section#registerEvent .registerEventForm .registerEvent-form-item .form-item.form-type-radios label {}
+/*/Registro evento/lugar*/
+/*Errores 403 y 404*/
+section#error403{height: 671px; background: url(../images/errores/error_403_1280.jpg) no-repeat center top;}
+section#error404{height: 920px; background: url(../images/errores/error_404_1280.jpg) no-repeat center top;}
+/*/Errores 403 y 404*/
+/**Menu sesion perfil**/
+.perfil-sesion-fixed{position: fixed;width: 100%;z-index: 2;}
+#userProfileMenu a{color:#fff;}
+/**Menu sesion perfil**/
+/*Legales*/
+div#legales {font-size: 18px; font-size: 1.8rem; font-family: 'Noto', sans-serif; color: #000;line-height: 25px;}
+div#legales h1 {font-size: 30px; font-size: 3rem; font-family: 'Oswald', sans-serif; color: #000;}
+div#legales h2 {font-size: 23px; font-size: 2.3rem; font-family: 'Oswald', sans-serif; color: #000;}
+div#legales h3 {font-size: 19px; font-size: 1.9rem; font-family: 'Oswald', sans-serif; color: #666;}
+/*/Legales*/
+label.error{color: #f00 !important;font-size: 10px !important;}
+.pos-grid{width: 33.33%;}
+.registerEvent-pago label.error{position: absolute;text-align: center;margin-bottom: 1px;}
+.form-item-deseo-registrar label.error,.form-item-soy label.error{position: absolute;text-align: center;width: 100%;left: 0px;margin-top: 32px !important;}
+.registerEvent-rangos label.error{position: absolute;text-align: center;margin-top: .5% !important;}
+.sipiSocial {background-color: #f3f3f3;}
+.media{text-align: center;}
+.msummary{font-size: 15px;line-height: 1.5;font-family: "MarkSimonsonThin";color: darkgray;margin-bottom: 5px;}
+.sismo-title{text-align: center; font-weight: bold;color:white;display: block;font-size:25px;padding: 10px; position: absolute;width: 98%;bottom: 2px;}
+.sismo-title-sec{font-size: 19px;font-weight: bold;}
+.bgwhite{background-color: white}
+.w30p{width: 25%;}
+.opacity0{background-color: rgba(0, 0, 0, 0.8);}
+.borange{border-bottom:solid 1px orange;}
+.pt10{padding-bottom: 10px;}
+.icn-oreja-verde a{color: black;font-size: 24px;font-weight: bold;line-height: 2;display: block;text-align: center;}
+span.fieldset-title{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#contact-site-form label{font-size: 30px;font-family: "Russo"; margin-bottom: 5px}
+#contact-site-form input[type=text]{font-size: 20px;font-family: "Russo"; height: 30px; width: 100%}
+#contact-site-form .form-item {margin-bottom: 20px}
+#contact-site-form #edit-actions{margin: 0 auto; text-align: center}
+#contact-site-form .form-actions #edit-submit{font-family: "Russo";background-color: orange; width: 200px;height: 49px;font-size: 20px;}
+.wh-share{display: none}
+.wh-logo{width: 75px;height: 20px;}
+.form-item-copy label{font-size: 18px !important;}
+.page-contact #mainContent{
+    width:800px;
+}
+
+.page-contact #main_container_left {
+    padding-right:0px !important;
+}
+
+.page-node article{
+    padding: 0 15px 15px 15px;
+}
+
+.page-user-register .tabs{
+    display: none;
+}
+
+#userRegistration{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.userRegistrationForm{
+    width: 650px;
+    margin: 0 auto;
+}
+#userRegistration label{
+    font-size: 25px;
+    color: dimgrey;
+    font-weight: bold;
+}
+
+.header-register{
+    font-size: 39px;
+    color: dimgrey;
+    font-weight: bold;
+    margin: 0 0 50px 0;
+}
+
+#userRegistration .field-name-field-fecha-nacimiento{
+    font-size: 25px;
+    margin-top: 30px;
+    color: dimgrey;
+    font-weight: bold;
+
+}
+
+.group-direccion{
+    margin: 80px 0 30px 0;
+    overflow: hidden;
+}
+.group-direccion .fieldset-legend{
+    font-size: 25px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    color: red !important;
+    font-weight: bold;
+}
+
+.group-direccion .fieldset-legend a{
+    color: red !important;
+    margin: 0 0 20px 0;
+    display: inline-block;
+}
+
+html.js fieldset.collapsible .fieldset-legend{
+    background: none;
+}
+
+#edit-field-description-user, #edit-field-fb-account, #edit-field-tw-account, .form-type-password-confirm{
+    display:none;
+}
+
+#field-fecha-nacimiento-add-more-wrapper select {
+    width: 195px;
+    height: 32px;
+    font-size: 20px;
+}
+
+#field-fecha-nacimiento-add-more-wrapper{
+    width: 650px;
+}
+
+#field-fecha-nacimiento-add-more-wrapper label {
+    display: none;
+}
+
+#edit-field-fecha-nacimiento{
+    height: 100px
+    width:650px
+}
+
+#field-fecha-nacimiento-add-more-wrapper legend{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+#edit-field-sexo-und{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    display: block;
+}
+
+.container-inline-date .date-padding{
+    padding: 0 !important;
+}
+
+.date-no-float{
+    width: 95% !important;
+}
+
+.field-name-field-delegacion, .field-name-field-cp, .field-name-field-calle,.field-name-field-colonia, .field-name-field-num-int, .field-name-field-num-ext,.form-actions,.userRegisterLegals {
+    float: left;
+}
+.field-name-field-delegacion select, .field-name-field-delegacion label {
+    width: 290px;
+    font-size: 20px;
+    height: 30px;
+}
+
+
+.field-name-field-colonia{
+    width: 335px !important;
+    margin: 0 0 0 20px;
+}
+
+
+.field-name-field-calle{
+    width: 360px !important;
+}
+
+.field-name-field-num-int, .field-name-field-num-ext, .field-name-field-cp{
+    width: 180px !important;
+    margin: 0 35px 0 0;
+}
+
+.form-actions{
+    clear: both;
+    margin: 10px auto;
+    display: block;
+    width: 100% !important;
+}
+
+.form-actions .form-submit{
+    width: 250px;
+    background: red;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#register-thanks h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+#register-thanks h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: dimgrey;
+}
+
+.page-thanks-register #main_container_left{
+    padding-right: 0 !important;
+    height: 400px;
+}
+
+.page-thanks-register #main_container_right{
+    display: none;
+}
+
+#userRegistration .error{
+    margin-top: 5px;
+}
+
+.g-recaptcha div{
+    margin:  0 auto;
+}
+
+fieldset.captcha legend, fieldset.captcha .fieldset-description{
+    display: none;
+}
+
+
+#userRegistration select{
+    height: 37px !important;
+}
+
+#userRegistration label{
+    height: 30px !important;
+    text-align: left;
+}
+
+.field-name-field-calle {
+    width: 100% !important;
+    display: block;
+    clear: both;
+}
+
+.page-user-register #main_container_right{
+    display: none;
+}
+
+.page-user-register .main_container_left{
+    width: 100%;
+}
+
+.page-user-register #main_container_left{
+    padding: 10px;
+}
+
+.at-share-tbx-element.addthis_32x32_style .at-share-btn, .at-share-tbx-element.addthis_32x32_white_style .at-share-btn {
+    max-width: 4pc !important;
+    max-height: 2pc !important;
+    margin: 5px !important;
+}
+
+ul.pager.pager-load-more a {
+    padding: 10px;
+    background-color: orangered;
+    width: 30%;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+}
+
+.section-buscar #main_container_right{
+    display: none !important;
+}
+
+.section-buscar #mainContent{
+    width: 800px !important;
+}
+
+.section-buscar #main_container_left{
+    margin: 0 auto;
+    padding-right:0px !important;
+}
+
+
+.subterraneo-img:hover, .nodesList-img:hover{
+    background-color: black;
+}
+
+.subterraneo-img img:hover, .nodesList-img img:hover{
+    opacity: .5;
+}

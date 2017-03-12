@@ -1,0 +1,44 @@
+name        = ElMexiquense
+description = Tema Full para el sitio El Queretano MX
+screenshot  = screenshot.png
+core        = 7.x
+engine      = phptemplate
+base theme = LaCapitalMX
+
+stylesheets[all][] = css/reseter.css
+stylesheets[all][] = css/helpers.css
+stylesheets[all][] = css/lacapitalmx-fresh.css
+stylesheets[all][] = css/responsive.css
+stylesheets[all][] = css/pace-theme-barber-shop.css
+stylesheets[all][] = css/colorbox/colorbox.css
+
+scripts[] = js/jquery.imxsticky-1.5.js
+scripts[] = js/jquery.carouFredSel.js
+scripts[] = js/jquery.jcarousel.min.js
+scripts[] = js/modernizr.custom.12838.js
+scripts[] = js/lacapitalmx.js
+scripts[] = js/jquery.lazyload.min.js
+scripts[] = js/garuyo_ads_async.js
+scripts[] = js/pace.js
+scripts[] = js/colorbox/jquery.colorbox-min.js
+scripts[] = js/jquery.cookie.js
+
+;----------// Regions
+regions[aperture]          = Aperture
+regions[leaderboard]       = Leaderboard
+regions[menu_bar]          = Menu Bar
+regions[search_form]       = Search form
+regions[navigation]        = Navigation
+regions[header]            = Header
+regions[content_top]       = Contenido Top
+regions[content]           = Main Content
+regions[content_bottom]    = Contenido Bottom
+regions[sidebar_second]    = Sidebar second
+regions[footer]            = Footer
+regions[closure]           = Closure
+
+; Information added by drupal.org packaging script on 2012-05-18
+version = "7.x"
+core = "7.x"
+project = "elqueterano"
+datestamp = "1337337097"

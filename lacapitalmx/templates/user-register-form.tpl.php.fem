@@ -1,0 +1,61 @@
+<section id="userRegistrationWrapper">
+    <div class="limited">
+        <section id="userLogin">
+            <h2 class="O60l0 tacenter mt30 mb30">¡Inicia sesión con tu cuenta de correo electrónico!</h2>
+            <div class="userLoginForm tacenter">
+                
+            </div>
+            <h3 class="O40l0 tacenter mb20">También puedes ingresar con tu red social favorita</h3>
+            <div class="loginSocial tacenter">
+                <a href="#" class="diblock mlr5">
+                    <img alt="Inicia sesión con Facebook" src="images/fb.png" />
+                </a>
+                <a href="#" class="diblock mlr5">
+                    <img alt="Inicia sesión con G+" src="images/google.png" />
+                </a>
+            </div>
+        </section>
+        <section id="userBenefits">
+            <h2 class="O60l0 tacenter mt30 mb30">¿Aún no tienes cuenta?</h2>
+            <div class="userRegistrationBenefits centered">
+                <ul>
+                    <li>
+                        <h4 class="O30r0 icn-pin-b">Mis favoritos</h4>
+                        <p class="N18r0 mt10 lh22">En esta sección podrás guardar los artículos de tu interés y mantenerlos para leerlos cuando gustes.</p>
+                    </li>
+                    <li>
+                        <h4 class="O30r0 icn-alertas-b">Mis alertas</h4>
+                        <p class="N18r0 mt10 lh22">En esta sección podrás guardar los artículos de tu interés y mantenerlos para leerlos cuando gustes.</p>
+                    </li>
+                    <li>
+                        <h4 class="O30r0 icn-boletin-b">Boletín</h4>
+                        <p class="N18r0 mt10 lh22">En esta sección podrás guardar los artículos de tu interés y mantenerlos para leerlos cuando gustes.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="userRegistration">
+            <h2 class="O60l0 tacenter mt30 mb30">¡Regístrate ahora!</h2>
+            <div class="userRegistrationForm tacenter">
+                <form>
+                    <div>
+                        <input id="name" type="text" placeholder="Tu correo electrónico" />
+                    </div>
+                    <div>
+                        <input id="password" type="password" placeholder="Tu contraseña" />
+                    </div>
+                    <div>
+                        <input id="password-repeat" type="password" placeholder="Repite tu contraseña" />
+                    </div>
+                    <div>
+                        <input id="submit" type="submit" class="btn-registrar" value="Iniciar sesión" />
+                    </div>
+                </form>
+            </div>
+            <div class="userRegisterLegals tacenter centered mt40 mb40">
+                <p class="A15r0 mb5 lh20">Al continuar, declaras que aceptas nuestros <a href="/terminos-y-condiciones-de-uso">Términos y condiciones de uso</a> y nuestro <a href="/aviso-de-privacidad">Aviso de privacidad</a>.</p>
+                <p class="A15r0 lh20">Y quedarás suscrito al boletín de Garuyo.com y servicios, en caso de que no desees recibirlo podrás cancelarlo en cualquier momento en la sección de Configuración dentro del menú Mi Perfil.</p>
+            </div>
+        </section>
+    </div>
+</section>

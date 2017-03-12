@@ -1,0 +1,17 @@
+.loading {
+    background-position: center;
+    background-repeat: no-repeat;   
+    min-height: 100px;
+    min-width: 100px;        
+}
+.wrapper-loading {
+    display: none;
+    float: left;       
+    height: 32px;
+    margin: 5px 0px;
+    width: 100%;
+    text-align: center;
+}
+.wrapper-loading img {
+    margin: 0 auto;        
+}
