@@ -216,8 +216,8 @@ $revista = getRevista();
                 <?php endif; ?>
             </div>
             <div class="tacenter pal10" id="super-banner-top">
-                    <a href="<?php print 'http://www.lacapitalmx.com/queretaro/trafico/poder-judicial-de-lujo-el-costo-de-burlar-la-ley'//print $super["url"]?>" target="_blank">
-                        <img class="img-fluid"  itemprop="image" src="/sites/all/themes/lacapitalmx/images/super_autopromo_queretaro.jpg" alt="" />
+                    <a href="<?php print 'http://www.lacapitalmx.com/queretaro/trafico/uso-marcos-aguilar-helicoptero-de-la-policia-como-taxi-pr'//print $super["url"]?>" target="_blank">
+                        <img class="img-fluid"  itemprop="image" src="/sites/all/themes/lacapitalmx/images/super_autopromo.jpg" alt="" />
                     </a>
             </div>
             <div id="contentTop">
