@@ -23,12 +23,12 @@ jQuery(document).ready(function() {
     jQuery("#change-ciudad, #change-ciudad-mobil").change(function(){
         ciudad=jQuery(this).val();
         if(ciudad=='queretaro'){
-            window.location='http://local.elqueretano.mx';
+            window.location='http://www.elqueretano.mx';
         }else if(ciudad=='edomex'){
-            window.location='http://local.elmexiquense.com';
+            window.location='http://www.elmexiquense.com';
 
         }else{
-            window.location='http://local.lacapitalmx.com';
+            window.location='http://www.lacapitalmx.com';
         }
     });
 
