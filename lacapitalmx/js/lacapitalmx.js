@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
         if(ciudad=='queretaro'){
             window.location='http://www.elqueretano.mx';
         }else if(ciudad=='edomex'){
-            window.location='http://www.elmexiquense.com';
+            window.location='http://www.elmexiquense.com.mx';
 
         }else{
             window.location='http://www.lacapitalmx.com';
