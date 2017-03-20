@@ -7,7 +7,7 @@
                 <?php foreach($items as $item):?>
                     <li class="col-3 bsbb pl10 pr10 left mb30">
                         <div class="mirador-img prelative">
-                            <a class="dblock mirador-link" href="/<?php print $item["node_url"]?>">
+                            <a target="_blank" class="dblock mirador-link" href="/<?php print $item["node_url"]?>">
                                 <span class="helperArrow-2"></span>
                                 <img class="img-fluid" width="100%" height="auto" itemprop="image" src="<?php print file_create_url($item['user_picture'])?>" alt="" />
                             </a>
@@ -17,7 +17,7 @@
                         <h3 itemprop="name" class="mt10 upper">
                             <span class="O15r3">POR: </span> <a href="/<?php echo $item['user_url']?>" class="O15l6"><?php print $item['user_name']?></a>
                         </h3>
-                        <a href="/<?php print $item["node_url"]?>">
+                        <a target="_blank" href="/<?php print $item["node_url"]?>">
                             <h2 itemprop="headline" class="O19r0 lh30 mt10"><?php print $item['node_title']?></h2>
                         </a>
                     </li>
