@@ -216,7 +216,7 @@ $revista = getRevista();
                 <?php endif; ?>
             </div>
             <div class="tacenter pal10" id="super-banner-top">
-                    <a href="<?php print 'http://www.elqueretano.mx/trafico/recula-aguilar-y-termina-en-pleito-millonario'//print $super["url"]?>" target="_blank">
+                    <a href="<?php print 'http://www.elqueretano.mx/trafico/florecen-partidos-y-gasto-electoral-pero-no-voto'//print $super["url"]?>" target="_blank">
                         <img class="img-fluid"  itemprop="image" src="/sites/all/themes/elqueretano/images/super_autopromo.jpg" alt="" />
                     </a>
             </div>
