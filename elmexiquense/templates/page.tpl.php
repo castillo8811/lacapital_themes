@@ -1,4 +1,4 @@
-la<?php
+<?php
 /**
  * @file
  * Theme implementation to display a single Drupal page.
