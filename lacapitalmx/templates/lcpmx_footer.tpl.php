@@ -5,7 +5,7 @@
     if($theme=="elqueretano"){
         $site='El Queretano';
     }else if($theme=="elmexiquense"){
-        $site='El Mexiquense';
+        $site='El Mexiquense    ';
     }
     $items = $variables['items_lcpmx_footer'];
     $logo="/sites/all/themes/{$theme}/images/logo_c.png";
