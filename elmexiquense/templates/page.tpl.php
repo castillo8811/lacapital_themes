@@ -150,20 +150,20 @@ $revista = getRevista();
                                 </a>
                             <?php endif; ?>
                         </div>
-                            <div class="menuFixedRevista prelative">
-                                <div class="arrow-right"></div>
-                                <div class="download-seccion">
-                                    <div class="revista">
-                                        <img src="<?php print $revista["portada"]?>" />
-                                    </div>
-                                    <div class="download-section">
-                                        <span class="revista-sub">OBTÉN GRATIS</span>
-                                        <span class="revista-sub">EL Mexiquense</span>
-                                        <a class="d-button" href="<?php print $revista["file"]?>" target="_blank" title="">Descargar</a>
-                                    </div>
+                        <div class="menuFixedRevista prelative">
+                            <div class="arrow-right"></div>
+                            <div class="download-seccion">
+                                <span class="revista-header">¡CADA MARTES UN NUEVO NÚMERO!</span>
+                                <div class="revista">
+                                    <img src="<?php print $revista["portada"]?>" />
+                                </div>
+                                <div class="download-section">
+                                    <span class="revista-sub">OBTÉN GRATIS</span>
+                                    <span class="revista-sub">LA CAPITAL </span>
+                                    <a class="d-button" href="<?php print $revista["file"]?>" target="_blank" title="">Descargar</a>
                                 </div>
                             </div>
-                      
+                        </div>
                         <div class="menuFixed-impreso left">
                             <!--Region header-->
                             <?php print render($page['header']); ?>
