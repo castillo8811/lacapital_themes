@@ -60,6 +60,12 @@
     #main_container_right{
         display: none;
     }
+
+    .heading-cdmx{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
 </style>
 <div id="directorio-wrapper">
     <div>
@@ -135,7 +141,7 @@
             </li>
         </ul>
         <ul>
-            <span class="heading">REDACCION EN CDMX:</span>
+            <span class="heading-cdmx">REDACCION EN CDMX:</span>
             <li>
                 <span class="heading">Coordinación Softnews:</span>
                 <span>Ana Laura Maldonado</span>
