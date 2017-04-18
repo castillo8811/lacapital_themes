@@ -147,6 +147,33 @@
             </li>
         </ul>
         <ul>
+            <li>
+                <span class="heading">CYNTHIA PERALTA</span>
+                <span class="sub">Editora Web</span>
+                <br>
+                <hr>
+            </li>
+            <li>
+                <span class="heading">Carlos Hugo González Reyes</span>
+                <span class="heading">David Martínez Tamariz</span>
+                <span class="heading">Emma Blancas</span>
+                <span class="heading">Fernanda Ruiz Rodríguez</span>
+                <span class="sub">Coeditores web</span>
+            </li>
+            <li>
+                <span class="heading">Reporteros:</span>
+                <span>Guillermo González Hudson</span>
+                <span>Francisco Hernández Ayala</span>
+                <span>Luis Bernal</span>
+                <span>Gloria Magaña</span>
+            </li>
+            <li>
+                <span class="heading">Fotografía:</span>
+                <span>Mario Valdés</span>
+                <br>
+            </li>
+        </ul>
+        <ul>
             <span class="heading">REDACCION EN CDMX:</span>
             <li>
                 <span class="heading">Coordinación Softnews:</span>
