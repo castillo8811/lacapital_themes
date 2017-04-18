@@ -73,7 +73,7 @@
 
             <li>
                 <span class="heading">HUGO CORZO ZANABRIA</span>
-                <span class="sub">Director Editorial</span>
+                <span class="sub">Director Editorial General</span>
                 <span><a class="sub-link" href="#">@Hugo_Corzo</a></span>
                 <hr>
             </li>
@@ -81,6 +81,12 @@
                 <span class="heading">PETRUSHKA SAINZ</span>
                 <span class="sub">Directora de Arte y Diseño</span>
                 <span><a class="sub-link" href="#">@PetrushkaSainz</a></span>
+                <hr>
+            </li>
+            <li>
+                <span class="heading">FERNANDO PANIAGUA</span>
+                <span class="sub">Director Editorial</span>
+                <span><a class="sub-link" href="#">@_PaniaguaF</a></span>
                 <hr>
             </li>
             <li>
@@ -99,11 +105,6 @@
                 <span>Giovanna Ruiz Medina</span>
                 <br>
                 <hr>
-            </li>
-            <li>
-                <span class="heading">Coordinación Softnews:</span>
-                <span>Ana Laura Maldonado</span>
-                <br>
             </li>
         </ul>
         <ul>
@@ -146,13 +147,30 @@
             </li>
         </ul>
         <ul>
+            <span class="heading">REDACCION EN CDMX:</span>
             <li>
-                <span class="heading">Reporteros:</span>
-                <span>Fernando García</span>
-                <span>Valentín Navarro</span>
+                <span class="heading">Coordinación Softnews:</span>
+                <span>Ana Laura Maldonado</span>
+                <br>
             </li>
-
-
+            <li>
+                <span class="heading">Editor de Fotografía:</span>
+                <span>Eduardo Loza</span>
+                <br>
+                <hr>
+            </li>
+            <li>
+                <span class="heading">Editor de Arte e Ilustración:</span>
+                <span>Allan G. Ramírez</span>
+                <br>
+                <hr>
+            </li>
+            <li>
+                <span class="heading">Coeditora general:</span>
+                <span>Ruth Muñiz</span>
+                <br>
+                <hr>
+            </li>
             <li>
                 <span class="heading">Fotografía:</span>
                 <span>Ángela Ávalos</span>
