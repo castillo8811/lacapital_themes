@@ -122,45 +122,6 @@
                 <span class="sub">Coeditores web</span>
             </li>
             <li>
-                <span class="heading">Community Manager:</span>
-                <span>Hakbar Canales Juárez</span>
-                <br>
-                <hr>
-            </li>
-            <li>
-                <span class="heading">Editor de Fotografía:</span>
-                <span>Eduardo Loza</span>
-                <br>
-                <hr>
-            </li>
-            <li>
-                <span class="heading">Editor de Arte e Ilustración:</span>
-                <span>Allan G. Ramírez</span>
-                <br>
-                <hr>
-            </li>
-            <li>
-                <span class="heading">Coeditora general:</span>
-                <span>Ruth Muñiz</span>
-                <br>
-                <hr>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <span class="heading">CYNTHIA PERALTA</span>
-                <span class="sub">Editora Web</span>
-                <br>
-                <hr>
-            </li>
-            <li>
-                <span class="heading">Carlos Hugo González Reyes</span>
-                <span class="heading">David Martínez Tamariz</span>
-                <span class="heading">Emma Blancas</span>
-                <span class="heading">Fernanda Ruiz Rodríguez</span>
-                <span class="sub">Coeditores web</span>
-            </li>
-            <li>
                 <span class="heading">Reporteros:</span>
                 <span>Guillermo González Hudson</span>
                 <span>Francisco Hernández Ayala</span>
