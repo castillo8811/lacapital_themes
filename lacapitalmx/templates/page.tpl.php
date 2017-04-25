@@ -216,7 +216,7 @@ $revista = getRevista();
                 <?php endif; ?>
             </div>
             <div class="tacenter pal10" id="super-banner-top">
-                        <a href="<?php print 'http://www.lacapitalmx.com/subterraneo/cuando-si-vale-pedalear-la-bici'//print $super["url"]?>" target="_blank">
+                        <a href="<?php print 'http://www.lacapitalmx.com/subterraneo/naucalpan-sumergido-en-la-inseguridad'//print $super["url"]?>" target="_blank">
                         <img class="img-fluid"  itemprop="image" src="/sites/all/themes/lacapitalmx/images/super_autopromo.jpg" alt="" />
                     </a>
             </div>
