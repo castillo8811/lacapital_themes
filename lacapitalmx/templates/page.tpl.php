@@ -107,6 +107,7 @@
 
 $super=get_lcmx_banner("super");
 $revista = getRevista();
+$banner=getSuperBanner();
 
 ?>
 <?php print render($page['aperture']); ?>
@@ -216,8 +217,8 @@ $revista = getRevista();
                 <?php endif; ?>
             </div>
             <div class="tacenter pal10" id="super-banner-top">
-                        <a href="<?php print 'http://www.lacapitalmx.com/subterraneo/naucalpan-sumergido-en-la-inseguridad'//print $super["url"]?>" target="_blank">
-                        <img class="img-fluid"  itemprop="image" src="/sites/all/themes/lacapitalmx/images/super_autopromo.jpg" alt="" />
+                        <a href="<?php print $banner['target']//print $super["url"]?>" target="_blank">
+                        <img class="img-fluid"  itemprop="image" src="<?php print $banner['image']?>" alt="" />
                     </a>
             </div>
             <div id="contentTop">
