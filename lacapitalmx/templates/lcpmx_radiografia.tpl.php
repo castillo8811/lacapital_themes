@@ -46,7 +46,7 @@ $super=get_lcmx_banner("super");
 <section id="banner-section">
     <div class="tacenter pal15 left">
         <div class="boxHome pal10">
-            <a href="http://portal.infonavit.org.mx/wps/wcm/connect/infonavit/inicio" target="_blank">
+            <a href="https://www.bikefestxpo.com/" target="_blank">
                 <img width="300"  itemprop="image" src="/sites/all/themes/lacapitalmx/images/bike_fest.jpg" alt="" />
             </a>
         </div>
