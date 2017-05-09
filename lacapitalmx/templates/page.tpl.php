@@ -181,7 +181,7 @@ $banner=getSuperBanner();
                                 <select id="change-ciudad">
                                     <option value="cdmx" selected>
                                         Ciudad de México
-                                    </option>
+                                         </option>
                                     <option value="queretaro">
                                         Querétaro
                                     </option>
