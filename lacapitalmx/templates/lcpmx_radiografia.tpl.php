@@ -60,8 +60,8 @@ $super=get_lcmx_banner("super");
     </div>
     <div class="tacenter pal15 left">
         <div class="pal10 boxHome ">
-            <a href="http://www.politico.mx/" target="_blank">
-                <img width="300"  itemprop="image" src="/sites/all/themes/lacapitalmx/images/box_7.jpg" alt="" />
+            <a href="http://www.adn40.mx/" target="_blank">
+                <img width="300"  itemprop="image" src="/sites/all/themes/lacapitalmx/images/esnoticia.jpg" alt="" />
             </a>
         </div>
     </div>
