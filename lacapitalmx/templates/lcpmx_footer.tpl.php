@@ -31,12 +31,7 @@
                             <a class="O18lf transitionColor" href="/<?php echo $path?>"><?php echo $title?></a>
                         </li>
                     <?php endforeach;?>
-                     <?php if($theme!="elqueretano"):?>
-                        <li class="mr30 bsbb left pt20">
-                            <a class="O18lf transitionColor" href="/user/register">Recibe La Capital en tu casa</a>
-                        </li>
-                    <?php endif?>
-                    <li class="clear"></li>
+                        <li class="clear"></li>
 
         </ul>
         <div class="copyright ptb20 O13r6 mt20 tacenter">
