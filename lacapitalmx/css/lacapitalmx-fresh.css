@@ -93,7 +93,7 @@ body.front {padding-top: 0;}
     font-size: 15px;
     text-align: center;
     font-weight: bold;
-    visibility: none;
+    visibility: hidden;
 }
 
 .menuFixedNav ul.menu li a.active{color: yellow;}
