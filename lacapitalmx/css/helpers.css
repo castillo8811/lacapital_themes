@@ -356,6 +356,7 @@ li.statistics_counter.first.last {display: none;}
     height: 125px;
     color: white;
     float: right;
+    visibility: hidden;
 }
 .menuFixedRevista a{
     color: white;

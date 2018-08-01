@@ -4,6 +4,7 @@
 #change-ciudad-mobil{
     display: none;
 }
+/*
 #top {
     margin: 0 auto;
     background: rgba(0,0,0,1);
@@ -14,6 +15,12 @@
     background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 66%, rgba(131,129,104,1) 66%, rgba(131,129,104,1) 75%, rgba(131,129,104,1) 88%, rgba(131,129,104,1) 100%);
     background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 66%, rgba(131,129,104,1) 66%, rgba(131,129,104,1) 75%, rgba(131,129,104,1) 88%, rgba(131,129,104,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#838168', GradientType=1 );
+}
+*/
+
+#top {
+    margin: 0 auto;
+    background: #000;
 }
 #pageContent{
     max-width: 1024px;
@@ -85,8 +92,10 @@ body.front {padding-top: 0;}
     height: 20px;
     font-size: 15px;
     text-align: center;
-    font-weight: bold
+    font-weight: bold;
+    visibility: none;
 }
+
 .menuFixedNav ul.menu li a.active{color: yellow;}
 .menuFixedNav ul.menu li.active-trail a{color: #000;}
 .menuFixedNav ul.menu li:nth-child(2).active-trail {color:yellow}

@@ -43,6 +43,7 @@ $super=get_lcmx_banner("super");
     </div>
 </section>
 
+<!--
 <section id="banner-section">
     <div class="tacenter pal15 left">
         <div class="boxHome pal10">
@@ -67,6 +68,7 @@ $super=get_lcmx_banner("super");
     </div>
     <div class="clear"></div>
 </section>
+-->
 <section>
     <?php
         $block = module_invoke('imx_newsletter_modal', 'block_view', 'lcpmx_newsletter_block');
